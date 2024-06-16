@@ -58,7 +58,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className='image-content'>
-          <img src={profileImage} alt='Leslie Alexander' />
+          <img src={profileImage} alt='Antony Kinuthia' />
         </div>
       </section>
     </div>
