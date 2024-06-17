@@ -1,116 +1,21 @@
-.footer {
-  background-color: #0d2b3e; /* Adjust to match your design */
-  padding: 50px 0;
-  color: #ffffff;
-}
-
-.footer-container {
+.projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  padding: 0 100px;
+  margin-bottom: 25px;
 }
-
-.footer-left,
-.footer-right {
+.grid-item {
   background-color: transparent;
   padding: 1rem;
-  border-radius: 10px;
-  border: 1px solid #00e0d0;
-}
-
-.footer-left h2 {
-  font-size: 24px;
-}
-
-.footer-left p {
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-.social-icons {
-  margin-top: 20px;
-}
-
-.social-icons a {
-  margin-right: 10px;
-}
-
-.social-icons img {
-  width: 24px;
-  height: 24px;
-}
-
-.footer-navigation,
-.footer-contact,
-.footer-subscription {
-  margin-bottom: 20px;
-}
-
-.footer-navigation h4,
-.footer-contact h4,
-.footer-subscription h4 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.footer-navigation ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-navigation li {
-  margin-bottom: 10px;
-}
-
-.footer-navigation a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.footer-navigation a:hover {
-  text-decoration: underline;
-}
-
-.footer-contact p,
-.footer-contact a {
-  margin: 5px 0;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.footer-contact a:hover {
-  text-decoration: underline;
-}
-
-.subscription-form {
-  display: flex;
-  align-items: center;
-}
-
-.subscription-form input {
-  padding: 10px;
-  border: none;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-}
-
-.subscription-form button {
-  padding: 10px;
-  border: none;
-  border-radius: 0 5px 5px 0;
-  background-color: #00bfa6; /* Adjust to match your design */
-  cursor: pointer;
-}
-
-.subscription-form button img {
-  width: 20px;
-  height: 20px;
+  border-radius: 10px; /* Remove the comma and color value */
+  border: 1px solid #00e0d0; /* Add this line if you want a border with the specified color */
 }
 
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
-  .footer-container {
+  .projects-grid {
     grid-template-columns: 1fr;
   }
 }
+
+/* Add any global styles here */
