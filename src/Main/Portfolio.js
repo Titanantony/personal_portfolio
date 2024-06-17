@@ -2,6 +2,7 @@ import React from 'react'
 import './Portfolio.css'
 import styled from 'styled-components'
 import ProjectsGrid from './ProjectsGrid'
+import Skills from './Skills'
 import profileImage from '../assets/profile_pic.jpeg' // Make sure to replace with the correct path
 
 const Portfolio = () => {
@@ -85,6 +86,8 @@ const Portfolio = () => {
       </section>
       <SubHeading className='title'>My Projects --</SubHeading>
       <ProjectsGrid />
+      <SubHeading className='title'>Skills --</SubHeading>
+      <Skills />
     </div>
   )
 }
