@@ -3,6 +3,9 @@ import './Portfolio.css'
 import styled from 'styled-components'
 import ProjectsGrid from './ProjectsGrid'
 import Skills from './Skills'
+import Education from './Education'
+import Footer from './Footer'
+import WavyBackground from './WavyBackground'
 import profileImage from '../assets/profile_pic.jpeg' // Make sure to replace with the correct path
 
 const Portfolio = () => {
@@ -88,9 +91,18 @@ const Portfolio = () => {
       <ProjectsGrid />
       <SubHeading className='title'>Skills --</SubHeading>
       <Skills />
+      <SubHeading className='title'>My Educatio --</SubHeading>
+      <Education />
+      <WavyBackground />
+      <MyFotter>
+        <Footer />
+      </MyFotter>
     </div>
   )
 }
+const MyFotter = styled.footer`
+  background: #03282e;
+`
 const SubHeading = styled.div`
   text-align: left;
   margin-bottom: 7px;
