@@ -23,7 +23,7 @@ const Footer = () => {
               Phone: <a href='tel:+254115423788'>+254 115 423 788</a>
             </p>
             <p>
-              <a href='mailto:antonytitan96@.com'>debbie.baker@example.com</a>
+              <a href='mailto:antonytitan96@.com'>antonytitan96@gmail.com</a>
             </p>
             <p>
               <a
