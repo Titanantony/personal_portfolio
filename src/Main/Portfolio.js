@@ -15,10 +15,9 @@ const Portfolio = () => {
       <header className='header'>
         <h1 className='logo'>Antony</h1>
         <nav className='nav'>
-          <a href='#service'>Service</a>
-          <a href='#portfolio'>Portfolio</a>
-          <a href='#about'>About</a>
-          <a href='#blog'>Blog</a>
+          <a href='#projects'>Projects</a>
+          <a href='#skills'>Skills</a>
+          <a href='#education'>Education</a>
           <a href='#contact'>Contact</a>
         </nav>
       </header>
@@ -27,7 +26,7 @@ const Portfolio = () => {
           {' '}
           <div className='text-content'>
             <h2>Hello 👋 am </h2>
-            <h1 className='name'>Antony Kinuthia</h1>
+            <h1 className='name'>Antony</h1>
             <h2 className='title'>Junior Software engineer and AI engineer</h2>
             <p>
               {' '}
@@ -59,14 +58,20 @@ const Portfolio = () => {
           </div>
         </Right>
       </section>
-      <SubHeading className='title'>My Projects --</SubHeading>
+      <SubHeading className='title' id='projects'>
+        My Projects --
+      </SubHeading>
       <ProjectsGrid />
-      <SubHeading className='title'>Skills --</SubHeading>
+      <SubHeading className='title' id='skills'>
+        Skills --
+      </SubHeading>
       <Skills />
-      <SubHeading className='title'>My Educatio --</SubHeading>
+      <SubHeading className='title' id='education'>
+        My Educational background --
+      </SubHeading>
       <Education />
       <WavyBackground />
-      <MyFotter>
+      <MyFotter id='contact'>
         <Footer />
       </MyFotter>
     </div>
