@@ -6,16 +6,37 @@ const ProjectsGrid = () => {
   return (
     <div className='projects-grid'>
       <div className='grid-item'>
-        <h2>Hidden Gems</h2>
-        <p>
-          A tourism app designed to promote and highlight lesser-known
-          attractions in Kenya, similar to apps like "Visit Dubai."
-        </p>
-        <ul>
-          <li>Backend: Firebase</li>
-          <li>Frontend: Flutter</li>
-        </ul>
-        <p>Status: The project is still in progress.</p>
+        <div>
+          <h2>Hidden Gems</h2>
+          <p>
+            A tourism app designed to promote and highlight lesser-known
+            attractions in Kenya, similar to apps like "Visit Dubai."
+          </p>
+          <ul>
+            <li>Backend: Firebase</li>
+            <li>Frontend: Flutter</li>
+          </ul>
+          <p>Status: The project is still in progress.</p>
+        </div>
+        <div>
+          <a
+            href='https://github.com/Titanantony/hidden_gems'
+            className='links'
+            target='_blank'
+            rel='noreferrer'
+          >
+            View Project
+          </a>
+          <a
+            href='https://github.com/Titanantony?tab=repositories'
+            className='links'
+            target='_blank'
+            rel='noreferrer'
+          >
+            View my other projects
+          </a>
+        </div>
+
         <div className='icons'>{/* Add icons here */}</div>
       </div>
 
@@ -37,6 +58,22 @@ const ProjectsGrid = () => {
           building a neural network model that successfully recognizes
           handwritten digits.
         </p>
+        <a
+          href='https://github.com/Titanantony/handwritten_digits_ai'
+          className='links'
+          target='_blank'
+          rel='noreferrer'
+        >
+          View Project
+        </a>
+        <a
+          href='https://github.com/Titanantony?tab=repositories'
+          className='links'
+          target='_blank'
+          rel='noreferrer'
+        >
+          View my other projects
+        </a>
         <div className='icons'>{/* Add icons here */}</div>
       </div>
 
@@ -54,6 +91,22 @@ const ProjectsGrid = () => {
           Functionality: The app works offline by using pre-downloaded AI
           models.
         </p>
+        <a
+          href='https://github.com/Titanantony/offline_ai'
+          className='links'
+          target='_blank'
+          rel='noreferrer'
+        >
+          View Project
+        </a>
+        <a
+          href='https://github.com/Titanantony?tab=repositories'
+          className='links'
+          target='_blank'
+          rel='noreferrer'
+        >
+          View my other projects
+        </a>
         <div className='icons'>{/* Add icons here */}</div>
       </div>
     </div>
