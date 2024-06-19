@@ -48,7 +48,12 @@ const Portfolio = () => {
               look forward to the opportunity to make a meaningful impact in the
               tech industry.
             </p>{' '}
-            <button className='download-btn'>Download CV</button>
+            <a
+              href='https://docs.google.com/uc?export=download&id=17uNQeulAcXFhWGkGEyjigQsF_WFFB5O_'
+              download
+            >
+              <button className='download-btn'>Download CV</button>
+            </a>
             <SocialLinks />
           </div>
         </Left>
