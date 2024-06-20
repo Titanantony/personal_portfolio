@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Portfolio.css'
 import styled from 'styled-components'
 import ProjectsGrid from './ProjectsGrid'
@@ -7,18 +7,28 @@ import Education from './Education'
 import SocialLinks from './SocialLinks'
 import Footer from './Footer'
 import WavyBackground from './WavyBackground'
-import profileImage from '../assets/profile_pic.jpeg' // Make sure to replace with the correct path
+import profileImage from '../assets/profile_pic.jpeg'
 
 const Portfolio = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false)
+
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen)
+  }
   return (
     <div className='portfolio'>
       <header className='header'>
         <h1 className='logo'>Antony</h1>
         <nav className='nav'>
-          <a href='#projects'>Projects</a>
-          <a href='#skills'>Skills</a>
-          <a href='#education'>Education</a>
-          <a href='#contact'>Contact</a>
+          <div className='nav-toggle' onClick={toggleNav}>
+            &#9776;
+          </div>
+          <div className={`nav-links ${isNavOpen ? 'active' : ''}`}>
+            <a href='#projects'>Projects</a>
+            <a href='#skills'>Skills</a>
+            <a href='#education'>Education</a>
+            <a href='#contact'>Contact</a>
+          </div>
         </nav>
       </header>
       <section className='main-content'>

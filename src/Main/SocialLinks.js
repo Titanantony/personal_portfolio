@@ -21,11 +21,11 @@ export default function SocialLinks() {
         <i class='fab fa-facebook'></i>
       </a>
       <a
-        href='https://www.instagram.com/mauristoantony/'
+        href='https://x.com/Antonymaurist?t=LDPrSmYn62TUp6XCCZkVhg&s=09'
         target='_blank'
         rel='noreferrer'
       >
-        <i class='fab fa-instagram'></i>
+        <i class='fab fa-x'></i>
       </a>
     </div>
   )
