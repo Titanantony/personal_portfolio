@@ -1,11 +1,26 @@
-import React from 'react'
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from 'react-router-dom'
+import './App.css'
+//Layout
+import RootLayout from './Layout/RootLayout'
 import Portfolio from './website/Portfolio'
+
+// Pages
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<RootLayout />}>
+      <Route index element={<Portfolio />} />
+    </Route>,
+  ),
+)
+
 function App() {
-  return (
-    <div className='App'>
-      <Portfolio />
-    </div>
-  )
+  return <RouterProvider router={router} />
 }
 
 export default App
