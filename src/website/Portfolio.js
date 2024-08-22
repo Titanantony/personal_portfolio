@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import './Portfolio.css'
 import styled from 'styled-components'
-import ProjectsGrid from './ProjectsGrid'
-import Skills from './Skills'
-import Education from './Education'
-import SocialLinks from './SocialLinks'
-import Footer from './Footer'
-import WavyBackground from './WavyBackground'
+import ProjectsGrid from './components/ProjectsGrid'
+import Skills from './components/Skills'
+import Education from './components/Education'
+import SocialLinks from './components/SocialLinks'
+import Footer from './components/Footer'
+import WavyBackground from './components/WavyBackground'
 import profileImage from '../assets/profile_pic.jpeg'
 
 const Portfolio = () => {
