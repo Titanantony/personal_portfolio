@@ -7,14 +7,16 @@ import {
 import './App.css'
 //Layout
 import RootLayout from './Layout/RootLayout'
-import Portfolio from './website/Portfolio'
 
 // Pages
+import Portfolio from './website/Portfolio'
+import MyBlog from './Blog/Blog'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<RootLayout />}>
       <Route index element={<Portfolio />} />
+      <Route path='myBlog' element={<MyBlog />}></Route>
     </Route>,
   ),
 )

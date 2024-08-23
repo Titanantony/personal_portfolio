@@ -26,7 +26,7 @@ function RootLayout() {
           </NavLink>
         </div>
 
-        <NavLink to='/' className='get-started-btn'>
+        <NavLink to='myBlog' className='get-started-btn'>
           My Blog
         </NavLink>
       </nav>
