@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import ProjectsGrid from './components/ProjectsGrid'
 import Skills from './components/Skills'
 import Education from './components/Education'
-import SocialLinks from './components/SocialLinks'
-import Footer from './components/Footer'
 import WavyBackground from './components/WavyBackground'
 import profileImage from '../assets/profile_pic.jpeg'
+import Footer from '../SharedComponents/Footer'
+import SocialLinks from '../SharedComponents/SocialLinks'
 
 const Portfolio = () => {
   return (

@@ -4,7 +4,7 @@ import { db } from './Firebase'
 import './Blog.css'
 import Footer from '../SharedComponents/Footer'
 
-const Blog = () => {
+const MyBlog = () => {
   const [featuredArticle, setFeaturedArticle] = useState(null)
   const [articles, setArticles] = useState([])
 
@@ -157,4 +157,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default MyBlog
